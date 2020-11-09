@@ -1,0 +1,88 @@
+* { box-sizing: border-box; padding: 0; margin: 0;}
+
+/* Tag selector */
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6rem;
+}
+
+
+a { 
+    text-decoration: none;
+    color: black;
+}
+
+h1 , h2 , h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+
+
+/* class selector */
+
+.hotel { width: 70px;}
+
+.hotel:hover {
+    background-color: gray;
+}
+
+.cur  {
+    background-color: #3434;
+    color: #fff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: auto;
+    
+}
+
+
+
+
+
+
+
+
+/* Id selector */
+
+#navbar {
+    background-color: blueviolet;
+    color: bisque;
+    overflow: auto;
+}
+
+#navbar img {
+    float: left;
+    padding-top: 20px ; 
+    padding-bottom: 10px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+/* * #navbar  li {
+    float: left; 
+} */
+
+#navbar ul a {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+} 
+
+#navbar ul a:hover  {
+    background-color: grey;
+    color: yellow;
+}
