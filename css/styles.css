@@ -156,6 +156,7 @@ span {
 
 
 
+
 /* Id selector */
 
 #navbar {
@@ -192,7 +193,8 @@ span {
 }
 
 #below-nav {
-    background: url(../images/hotel-reception-720x540.jpg) no-repeat center center/cover;
+    background: url(../images/hotel-reception-720x540.jpg) no-repeat center center/cover ;
+    
     height: 600px;
 }
 
@@ -212,7 +214,9 @@ span {
     float: left;
     width: 50%;
     min-height: 100%;
-    background: url(../images/hennny.jpg) no-repeat center center/cover;
+    background: url(../images/hennny.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #sec .sec-content {
@@ -236,4 +240,39 @@ span {
     color: #eaf6f6;
     padding: 20px;
     text-align: center;
+    margin-top: 40px;
+}
+
+#secti {
+    height: 600px;
+    background: url(../images/Home\ img.jpg) no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+#secti .container h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #eaf6f6;
+    padding-bottom: 40px;
+}
+
+#secti .review {
+    background-color: aliceblue;
+    padding: 20px;
+    margin-bottom: 40px;
+    opacity: 0.9;
+    
+}
+
+
+#secti img {
+    float: left;
+    width: 85px;
+    border-radius: 30%;
+    margin-right: 20px;
+    
+}
+
+#abt {
+    background-color: aliceblue;
 }
