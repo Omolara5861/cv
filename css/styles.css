@@ -130,8 +130,29 @@ span {
     color: #fff;
 }
 
+.about-content {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    padding: 30px;
+}
 
+.about-content h1 {
+    font-size: 35px;
+}
+.about-img {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    padding: 30px;
+}
 
+.about-img img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 40%;
+}
 
 
 
