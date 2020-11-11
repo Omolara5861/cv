@@ -154,6 +154,7 @@ i {
 
 .about-content h1 {
     font-size: 35px;
+    line-height: 1.2;
 }
 .about-img {
     float: right;
@@ -200,9 +201,9 @@ i {
     float: right;
 }
 
-/* * #navbar  li {
+#navbar  li {
     float: left; 
-} */
+}
 
 #navbar ul a {
     display: inline-block;
@@ -231,7 +232,7 @@ i {
 }
 
 #sec {
-    height: 400px;
+    height: 450px;
 }
 
 #sec .sec-img {
@@ -268,7 +269,7 @@ i {
 }
 
 #secti {
-    height: 600px;
+    height: 100%;
     background: url(../images/Home\ img.jpg) no-repeat center center/cover;
     padding-top: 100px;
 }
