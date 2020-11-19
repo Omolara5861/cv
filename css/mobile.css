@@ -14,7 +14,7 @@
     margin-bottom: 0;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 500px) {
     #navbar {
         flex-direction: column;
         align-items: center;
@@ -50,9 +50,9 @@
     }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 568px) {
     .big {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .sc {
         font-size: 1rem;
