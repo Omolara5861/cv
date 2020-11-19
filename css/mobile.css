@@ -1,36 +1,60 @@
-#navbar img { float: none;}
-
-#navbar ul { float: none;}
-
-#navbar li { float: none;} 
-.hotel  { margin: auto; display: block;}
-#navbar ul a { text-align: center; } 
-
-#sec .sec-img { display: none;}
-
-#sec .sec-content {
-    float: none;
-    width: 100%;}
-
-.box { float: none; width: 100%;}    
-
-.contact {
-    float: none;
-    width: 100%;
-    border-bottom: #252525 dotted 1px;
+.items {
+    display: block;
+    padding: 1rem; 
 }
 
-    .about-content {
-        float: none;
-        width: 100%;  }  
+.item {
+    display: flex;
+    text-align: left;
+}
 
-.about-content h1 { text-align: center;}
+#what i {
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
 
-.about-img { 
-    float: none; 
-    width: 100%;  }  
+@media(max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    #navbar ul {
+        padding: 0.5rem;
+    }
+    #showcase .showcase-content {
+        top: 110px;
+    }
+    .who-img { display: none;
+    
+    }
+    .ite {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    img {
+        width: 80%;
+    }
+    #clients .ite div:last-child {
+        display: none;
+    }
+    #contact {
+        flex-direction: column;
+    }
+    #contact .map {
+        height: 200px;
+    }
+}
 
-#below-nav { height: 100%;}
-
-.content { padding-top: 100px;
-padding-bottom: 40px}
+@media (max-height: 700px) {
+    .big {
+        font-size: 2rem;
+    }
+    .sc {
+        font-size: 1rem;
+    }
+}
