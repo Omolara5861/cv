@@ -71,6 +71,11 @@ textarea { width: 100%;
     overflow: hidden;
 }
 
+.cla {
+    background-color: #aaaaaa;
+    color: black;
+}
+
 .flex{
     flex: 1;
 }
