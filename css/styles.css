@@ -152,6 +152,10 @@ img {
     
 }
 
+#showcase {
+    position: relative;
+}
+
 #showcase .showcase-content {
     display: flex;
     flex-direction: column;
@@ -162,7 +166,7 @@ img {
     padding: 0 2rem;
     /* Overlay */
     position: absolute;
-    top: 65px;
+    top: 0px;
     left: 0;
     right: 0;
     bottom: 0px;
