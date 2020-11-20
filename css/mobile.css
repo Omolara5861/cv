@@ -8,6 +8,10 @@
     text-align: left;
 }
 
+.big {
+    font-size: 2rem;
+}
+
 #what i {
     margin-right: 1.3rem;
     align-self: center;
