@@ -3,7 +3,7 @@
     --introduction-color: #ead5dc;
     --content-color: #03396c;
     --conclusion-color: #e4dcf1;
-    --animate-speed: 3s;
+    --animate-speed: 2s;
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -93,4 +93,20 @@ body {
         transform: translateX(0px);
         color: black;
     }
+}
+
+@media(max-width: 768px) {
+    body { line-height: 1; padding: 2rem;}
+    .page h1 { font-size: 2rem;}
+    .page p { font-size: 1.2rem; padding: 0 2rem; } 
+    div { display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .btn {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+    
 }
