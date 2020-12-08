@@ -3,61 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <title>Presentation</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <title>Hamburger Menu Overlay</title>
 </head>
 <body>
-    <section id="welcome" class="page">
-        <h1>Welcome To My Presentation</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ducimus soluta! Repellendus quo quas ab nobis adipisci, nostrum quos ea ad rem sit aliquid debitis eius suscipit non impedit fugiat expedita molestias? Iusto harum rem architecto incidunt officiis vitae a!</p>
-        <div>
-            <a href="#introduction" class="btn">Next Page  <i class="fas fa-arrow-circle-down"></i></a>
+    <div  class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hambuger"><div></div></div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul><li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                </div>
+            </div>
         </div>
-    </section>
-    <section id="introduction" class="page">
-        <h1>Introduction</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ducimus soluta! Repellendus quo quas ab nobis adipisci, nostrum quos ea ad rem sit aliquid debitis eius suscipit non impedit fugiat expedita molestias? Iusto harum rem architecto incidunt officiis vitae a.</p>
-        <div>
-            <a href="#welcome" class="btn-p btn">Prev Page <i class="fas fa-arrow-circle-up"></i></a>
-            <a href="#content" class="btn">Next Page  <i class="fas fa-arrow-circle-down"></i></a>
+    </div>
+    <header id="showcase">
+        <div class="container container-content">
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aliquid autem sequi? Enim voluptate est voluptates, illo reiciendis molestiae officia.</p>
+            <a href="#" class="btn">Read More</a>
         </div>
-    </section>
-    <section id="content" class="page">
-        <h1>Content</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ducimus soluta! Repellendus quo quas ab nobis adipisci, nostrum quos ea ad rem sit aliquid debitis eius suscipit non impedit fugiat expedita molestias? Iusto harum rem architecto incidunt officiis vitae a.</p>
-        <div>
-            <a href="#introduction" class="btn-p btn">Prev Page <i class="fas fa-arrow-circle-up"></i></a>
-            <a href="#conclusion" class="btn ">Next Page  <i class="fas fa-arrow-circle-down"></i></a>
-        </div>
-    </section>
-    <section id="conclusion" class="page">
-        <h1>Conclusion</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ducimus soluta! Repellendus quo quas ab nobis adipisci, nostrum quos ea ad rem sit aliquid debitis eius suscipit non impedit fugiat expedita molestias? Iusto harum rem architecto incidunt officiis vitae a.</p>
-        <div>
-            <a href="#content" class="btn-p btn">Prev Page <i class="fas fa-arrow-circle-up"></i></a>
-        </div>
-    </section>
-
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-
-  <script>
-    // Smooth Scrolling
-    $('.btn ').on('click', function(event) {
-        if (this.hash !== '') {
-          event.preventDefault();
-          const hash = this.hash;
-          $('html, body').animate(
-            {
-              scrollTop: $(hash).offset().top
-            },
-            800
-          );
-        }
-      });
-  </script>
+    </header>
 </body>
 </html>
