@@ -1,0 +1,226 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+/* Css Reset */
+* {box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tag selector */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.4;
+}
+p {
+    margin: 0.75rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 { font-size: 2rem;}
+
+span {
+    color: blueviolet;
+}
+
+label { display: block;}
+
+input {width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+}
+
+textarea { width: 100%;
+        padding: 0.7rem;
+        margin-bottom: 1rem;
+}
+
+/* Class selectors */
+
+.big {
+    font-size: 4rem;
+    margin-bottom: 0.75rem ; 
+    line-height: 1.1;
+}
+
+.sc {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    
+}
+
+
+.btn {
+    background-color: blueviolet;
+    padding: 0.5rem 2rem;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #9d0191;
+    color: black;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cla {
+    background-color: #aaaaaa;
+    color: black;
+}
+
+.flex{
+    flex: 1;
+}
+
+.form {
+    background-color: blueviolet;
+    padding: 2.5rem;
+}
+
+img {
+    display: block;
+    margin: auto; 
+    width: 60%; 
+}
+
+.items {
+    display: flex;
+    padding: 1rem;
+}
+
+.ite { display: flex;  padding: 2.5rem;}
+
+.item {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+.medium {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 0;
+} 
+
+.who-img {
+    background: url('../Img/HappyEmployees.jpg') no-repeat center center/cover;
+    order: 2;
+    
+}
+
+.who-content {
+    background-color: #aaaaaa;
+    padding: 1.5rem;
+}
+
+/* Id tags */
+#navbar {
+    display: flex;
+    background: #aaaaaa;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    z-index: 1;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul a {
+    text-align: center;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+    color: aliceblue;
+}
+
+#navbar ul a:hover {
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+#showcase {
+    background: #333 url('../Img/Backgroung-img.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: aliceblue;
+    position: relative;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    padding: 0 2rem;
+    /* Overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba( 0, 0, 0, 0.7);
+}
+
+#what {
+    background-color: #dbf6e9;
+}
+
+
+
+#what i {
+    background-color: blueviolet;
+    padding: 1rem;
+    border-radius: 30%;
+    margin-bottom: 1.5rem;
+}
+
+#who {
+    display: flex;
+    
+}
+
+#who div {
+    flex: 1;
+}
+
+#who ul {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+
+#who ul li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted  1px;
+}
+
+#clients {
+    background-color: #dbf6e9;
+}
+
+#clients .items {
+    display: flex;
+}
+
+#contact {
+    display: flex;
+}
+
+#mainfooter {
+    background-color: #aaaaaa;
+    text-align: center;
+    padding: 1rem;
+}
