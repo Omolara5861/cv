@@ -1,0 +1,94 @@
+/* Css Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+/* Name Selection*/
+a {
+    text-decoration: none;
+    margin: 0.4rem;
+    color: black;
+}
+
+body {
+    font-family: 'Oleo Script', cursive;
+}
+
+li {list-style: none;
+    display: inline;
+}
+
+span { color: coral;}
+
+/* ID Selector */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    background: blueviolet;
+    padding: 1rem; 
+}
+
+#sect {
+    background: grey url('/img/129971556_189453755901719_1251955106140692798_n.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    line-height: 1.6;
+}
+
+/* Decendent Selector */
+#sect h1 {
+    font-size: 2.5rem;
+}
+
+#sect p {
+    font-size: 1.2rem;
+}
+
+/* Class Selector */
+.btn {
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 0.5rem 1rem;
+    background: rgb(0, 0, 0);
+    color: coral;
+    border-radius: 30%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Shape divider */
+.custom-shape-divider-bottom-1607061630 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden; 
+    line-height: 0;
+    transform: rotate(180deg); 
+}
+
+.custom-shape-divider-bottom-1607061630 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 180px;
+} 
+
+.custom-shape-divider-bottom-1607061630 .shape-fill {
+    fill: blueviolet;
+} 

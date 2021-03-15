@@ -1,0 +1,95 @@
+/* Pls note, all the sites with the name "Task" are not responsive, they are just sections of random sites i cloned. Actually cloning is my hobby, i enjoy it lol.. Check the Image folder for the Original version of this site.. Thank you 😅 */
+
+/* Css Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Name Selector */
+a {
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-top: -10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 5rem 5rem;
+}
+
+h3 {
+    padding: 0 1rem;
+    line-height: 1.5;
+    margin: 1.3rem 0;
+}
+
+img {
+    margin-left: 7px;
+}
+
+input {
+    width: 90%;
+    padding: 0.7rem;
+    margin-top: 17px;
+    border: none;
+}
+
+/* Class Selector */
+.cad {
+    padding: 1.2rem;
+    text-align: center;
+}
+
+.cad h3 {
+    margin-top: 5rem;
+}
+
+.card {
+    padding: 1rem;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-left: 230px;
+}
+
+.line {
+    background-color: slateblue;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 7%;
+    left: 48%;
+}
+
+.sub {
+    background-color: #ff0490;
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+/* Decendant Selector */
+.container div {
+    width: 300px;
+    height: 370px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    z-index: 2;
+    box-shadow: 10px 10px 20px #888888;
+}
+
+.container div:last-child {
+    background-color: azure;
+}

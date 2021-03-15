@@ -1,0 +1,110 @@
+/* Pls note, all the sites with the name "Task" are not responsive, they are just sections of random sites i cloned. Actually cloning is my hobby, i enjoy it lol.. Check the Image folder for the Original version of this site.. Thank you 😅.. */
+
+
+/* Css Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Name Selector */
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+h3 {
+    margin: 1rem 0;
+}
+
+input {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+li {
+    margin: 0.6rem 0;
+}
+
+p {
+    color: #222222;
+    line-height: 1.2;
+}
+
+span {
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Class Selector */
+.copy {
+    margin-bottom: 1.2rem;
+    padding-left: 8rem;
+}
+
+
+.div {
+    margin-top: 100px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8rem;
+}
+
+.flex-container div {
+    background-color: black;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: -8px;
+}
+
+.flex-container i {
+    margin: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0 8rem;
+}
+
+.grid-container div {
+    padding: 0 0.5rem;
+}
+
+.grid-container div:nth-child(4){
+    margin-left: -110px;
+    padding: 0 2.5rem;
+}
+
+.grid-container i {
+    margin: 7px;
+    opacity: 0.2;
+}
+
+.mt {
+    margin-top: 1rem;
+}
+
+/* Id Selector */
+#Footer {
+    /* background-color: #e6e6e6; */
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    margin: 200px 0;
+    overflow: hidden;
+    position: relative;
+}

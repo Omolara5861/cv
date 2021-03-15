@@ -1,0 +1,121 @@
+/* Pls note, all the sites with the name "Task" are not responsive, they are just sections of random sites i cloned. Actually cloning is my hobby, i enjoy it lol.. Check the Image folder for the Original version of this site.. Thank you 😅.. */
+
+/* Css Reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Name Selector */
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.7rem;
+    display: block;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+img {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-bottom: -10px;
+}
+
+input {
+    border: none;
+    font-size: 20px;
+    border-bottom: #fff 1px solid;
+    background-color: transparent;
+    padding: 0.7rem 0;
+}
+
+:placeholder-shown {
+    color: #fff;
+}
+
+span {
+    padding: 0.4rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+
+/* Class Selector */
+.container {
+    margin: 5rem 4rem;
+    overflow: hidden;
+}
+
+.current {
+    background-color: rgba(236, 211, 233, 0.2)
+}
+
+.drop {
+    margin-left: -10px;
+}
+
+.nav {  
+    display: flex;
+}
+
+/* ID Selector */
+#Nav-bar1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    padding: 0.8rem;
+    margin: 50px;
+    opacity: 0.9;
+}
+
+#Nav-bar2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #06c2ac;
+    padding: 0.8rem;
+    margin: 50px;
+    align-items: center;
+    opacity: 0.9;
+}
+
+#Nav-bar2 i {
+    margin-right: 17px;
+}
+
+#Nav-bar3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3399ff;
+    padding: 0.8rem;
+    margin: 50px;
+    align-items: center;
+    opacity: 0.9;
+}
+
+#Nav-bar3 i {
+    margin: 0 5px;
+}
+
+#Nav-bar4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ad0afd;
+    padding: 0.8rem;
+    margin: 50px;
+    align-items: center;
+    opacity: 0.9;
+}
+
+#Nav-bar4 i {
+    margin: 0 5px;
+}

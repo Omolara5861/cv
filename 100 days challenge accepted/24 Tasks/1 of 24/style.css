@@ -1,0 +1,129 @@
+/* Pls note, all the sites with the name "Task" are not responsive, they are just sections of random sites i cloned. Actually cloning is my hobby, i enjoy it lol.. Check the Image folder for the Original version of this site.. Thank you 😅.. */
+
+/* Css Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Name Selector */
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+}
+
+h3 {
+    margin: 1rem;
+}
+
+i {
+    margin-right: 15px;
+}
+
+img {
+    margin-top: 20px;
+}
+
+input {
+    padding: 0.5rem;
+    margin-bottom: 15px;
+    border: silver 1px solid;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+select {
+    padding: 0.5rem;
+    margin-bottom: 17px;
+    border: silver 1px solid;
+}
+
+/* Class Selector */
+.block {
+    width: 100%;
+}
+
+.btn {
+    padding: 0.5rem;
+    background-color: rgb(96, 96, 250);
+    float: right;
+    margin: 15px;
+    color: white;
+}
+
+.card {
+    padding: 1.6rem;
+    background-color: rgb(239, 239, 240);
+    max-width: 400px;
+    margin-left: 100px;
+}
+
+.card a {
+    display: block;
+    text-decoration: none;
+} 
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 3rem ; 
+} 
+
+.grid1 {
+    text-align: center;
+}
+
+.grid3 {
+    grid-column: 2/ span 2;
+    margin-left: 70px;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
+.icons {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.learn {
+    margin-top: 100px;
+}
+
+.names {
+    display: flex;
+}
+
+.names input {
+    width: 50%;
+}
+
+.names input:first-child {
+    margin-right: 10px;
+}
+
+.nxt {
+    margin-top: -10px;
+    margin-bottom: 15px;
+} 
+
+.right-align{
+    text-align: right;
+} 

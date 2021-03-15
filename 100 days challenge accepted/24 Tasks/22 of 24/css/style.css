@@ -1,0 +1,110 @@
+/* Pls note, all the sites with the name "Task" are not responsive, they are just sections of random sites i cloned. Actually cloning is my hobby, i enjoy it lol.. Check the Image folder for the Original version of this site.. Thank you 😅.. */
+
+
+/* For this site, i don't know how to make my blue background look exactly as it is in the original site but i'll update it once I'm able to fix it.. */
+
+/* Css Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Name Selection */
+body {
+    background: rgba(5, 5, 78, 0.877) !important; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    line-height: 1.2;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+    margin: 2rem 0;
+}
+
+i {
+    color: black;
+    margin: 15px 15px;
+}
+
+input {
+    width: 100%;
+    padding: 0.9rem;
+    margin-top: 20px;
+    border: none;
+}
+
+input:last-child {
+    background-color: #fd5b78;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    margin-top: 10px;
+}
+
+/* Class Selector */
+.body {
+    background-color: #fff ;
+    position: absolute ;
+    top: 0 ;
+    left: 0 ;
+    right: 0 ;
+    bottom: 40vh ;
+}
+
+.cad {
+    padding: 3rem;
+}
+
+.card {
+    padding: 4rem;
+}
+
+.category {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    height: 70vh;
+    margin-right: 50px;
+    margin-top: 170px;
+    color: #262626;
+    /* z-index: 2; */
+}
+
+.container {
+    display: flex;
+}
+
+.container .first {
+    background-color: #fd5b78;
+    width: 350px;
+    height: 100%;
+    color: #fff;
+}
+
+.container .second {
+    width: 580px;
+    background-color: aliceblue;
+    text-align: left;
+    
+
+}
+

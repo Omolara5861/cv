@@ -1,0 +1,83 @@
+/* Pls note, all the sites with the name "Task" are not responsive, they are just sections of random sites i cloned. Actually cloning is my hobby, i enjoy it lol.. Check the Image folder for the Original version of this site.. Thank you 😅.. */
+
+/* Css Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Name Selector */
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 14px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+h3 {
+    padding: 0 1.6rem;
+    margin-top: 0.7rem;
+    margin-bottom:1.5rem;
+}
+
+img {
+    max-width: 300px;
+    height:200px;
+}
+
+input {
+    background-color: #fff;
+}
+
+small {
+    display: block;
+    font-weight: 600;
+    padding: 0 1.6rem;
+    margin-top: 1rem ;
+    color: grey;
+}
+
+
+/* Class Selector */
+.btn {
+    padding: .8rem 2rem;
+    background-color: royalblue;
+    color: white;
+    height: 0%;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: #fff;
+    flex: 1;
+    margin: 20px;
+}
+
+.container {
+    background-color: aliceblue;
+    margin: 100px 0;
+    padding: 0 10rem;
+}
+
+.flex-contain {
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    align-items: center;
+}
+
+.flex-container div {
+    width: 300px;
+}

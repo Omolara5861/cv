@@ -1,0 +1,50 @@
+/* Reset Css */
+ * {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+/* Name Selector */
+a {
+    display: block;
+    text-decoration: none;
+    margin: 0.5rem;
+    color: inherit;
+}
+
+body {
+    font-family: 'Major Mono Display', monospace;
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background: linear-gradient(130deg , rgb(150, 32, 120)53% , rgb(230, 186, 212)47%);
+}
+
+h1 {
+    padding-right: 10px;
+}
+
+img {
+    border-radius: 40%;
+    height: 260px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+}

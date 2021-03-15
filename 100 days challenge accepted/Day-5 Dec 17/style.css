@@ -1,0 +1,100 @@
+/* Root Scope */
+:root {
+    --background-color: #ACC8E5;
+    --text-color: #112A46;
+    --animation-speed: 2s;
+}
+
+/* Css Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Name Selector */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+/* ID Selector */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+    display: inline-block;
+    padding: 0.4rem;
+}
+
+/* Section style */
+#section {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Button style */
+.btn {
+    margin-top: 25px;
+    background: transparent;
+    padding: 0.5rem;
+    border-style: solid;
+    border-width: thin;
+    border-color:  white;
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+.btn:hover {
+    transform: rotateY(180deg);
+}
+
+/* Animation */
+#sect h1 {
+    transform: translateY(-400px);
+    animation: heading 3s forwards ease-in;
+}
+
+@keyframes heading {
+    to { transform: translateY(0px);
+    }
+}
+
+#sect p {
+    transform: translateX(-1200px);
+    animation: para 3s forwards 1s;
+}
+
+@keyframes para {
+    to {
+        transform: translateX(0);
+    }
+}
