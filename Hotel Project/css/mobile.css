@@ -1,0 +1,36 @@
+#navbar img { float: none;}
+
+#navbar ul { float: none;}
+
+#navbar li { float: none;} 
+.hotel  { margin: auto; display: block;}
+#navbar ul a { text-align: center; } 
+
+#sec .sec-img { display: none;}
+
+#sec .sec-content {
+    float: none;
+    width: 100%;}
+
+.box { float: none; width: 100%;}    
+
+.contact {
+    float: none;
+    width: 100%;
+    border-bottom: #252525 dotted 1px;
+}
+
+    .about-content {
+        float: none;
+        width: 100%;  }  
+
+.about-content h1 { text-align: center;}
+
+.about-img { 
+    float: none; 
+    width: 100%;  }  
+
+#below-nav { height: 100%;}
+
+.content { padding-top: 100px;
+padding-bottom: 40px}
