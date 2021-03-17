@@ -1,0 +1,116 @@
+
+/* Root Scope */
+:root {
+    --welcome-color: #4b3832;
+    --introduction-color: #ead5dc;
+    --content-color: #03396c;
+    --conclusion-color: #e4dcf1;
+    --animate-speed: 2s;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.page h1 { font-size: 3rem;}
+
+.page p { font-size: 1.4rem; padding-bottom: 2rem;} 
+
+/* Page Colors */
+
+#introduction { background: var(--welcome-color); color: white; }
+#welcome { background: var(--introduction-color); color: black; text-shadow: 2px 2px 3px coral; }
+#conclusion { background: var(--content-color); color: white; }
+#content { background: var(--conclusion-color); color: black; text-shadow: 2px 2px 3px darkcyan; }
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 1 2rem;
+    
+}
+
+/* Button */
+.btn {
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    background-color: rgb(27, 27, 26) ;
+    color: aliceblue ;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+    margin-top: 2rem;
+    margin-right: 1.2rem;
+    border-radius: 40%;
+}
+
+.btn:hover {
+    background-color: bisque;
+    color: rgb(87, 73, 87);
+    opacity: 0.5;
+}
+
+.btn-p {
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    background-color: rgb(83, 139, 146) ;
+    color: rgb(25, 28, 31) ;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+    margin-top: 2rem;
+    border-radius: 40%;
+}
+
+.btn-p:hover {
+    background: indianred;
+    color: peachpuff;
+    opacity: 0.5;
+}
+
+#welcome h1 {
+    transform: translateY(-1200px);
+    animation: h1 var(--animate-speed) forwards ease-in;
+}
+
+@keyframes h1 {
+    to { transform: translateY(0px);
+        color: black;
+    }
+}
+
+#welcome p {
+    transform: translateX(-1200px);
+    animation: para var(--animate-speed) forwards ease-in 2s;
+    color: aliceblue;
+}
+
+@keyframes para {
+    to {
+        transform: translateX(0px);
+        color: black;
+    }
+}
+
+@media(max-width: 768px) {
+    .page h1 { font-size: 2rem;}
+    .page p { font-size: 1.2rem; padding: 0 2rem; } 
+    div { display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+    .btn {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+    
+}
