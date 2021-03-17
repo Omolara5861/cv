@@ -1,0 +1,169 @@
+/* Making the Hamburger Menu stay at it's spot */
+.menu-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* This is the checkbox that controls the state of the Menu */
+.toggler {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0;
+}
+
+/* This is the square/box that hold the 3 lines */
+.hambuger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+/* The 3 lines. Basically the is the main line in the middle */
+.hambuger >div {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.45s ease;
+}
+
+/* The top & bottom lines */
+.hambuger >div::before ,
+.hambuger >div::after {
+    content: '';
+    position: absolute;
+    z-index: 1; 
+    top: -10px;
+    width: 100%;
+    height: 2px;
+    background-color: inherit;
+}
+
+/* Moving the last line down */
+.hambuger >div::after {
+    top: 10px;
+}
+
+/* The X form of the Hamburger checked state */
+.toggler:checked + .hambuger > div {
+    transform: rotate(135deg);
+}
+
+.toggler:checked + .hambuger > div::before , 
+.toggler:checked + .hambuger > div::after {
+    top: 0; 
+    transform: rotate(90deg);
+}
+
+.toggler:checked:hover + .hambuger > div {
+    transform: rotate(225deg);
+}
+
+/* The menu inside the Hamburger*/
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* To hide the menu when it's unchecked */
+    visibility: hidden; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The Menu Overlay */
+.menu > div {
+    background: var(--overlay-color);
+    width: 150vw;
+    height: 150vw;
+    border-radius: 50%;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    /* To hide the menu when it's unchecked */
+    transform: scale(0); 
+    transition: all 0.4s ease;
+}
+
+/* The div with the list items */
+.menu > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: 90vw;
+    height: 100vh;
+    /* To hide the menu when it's unchecked */
+    opacity: 0; 
+    transition: opacity 0.4s ease;
+}
+
+/* Making the Menu list visible when Checked */
+.toggler:checked ~ .menu {
+    visibility: visible;
+}
+
+.toggler:checked ~ .menu > div {
+    transform: scale(1);
+    transition-duration: var(--menu-speed);
+}
+
+.toggler:checked ~ .menu > div > div {
+    opacity: 1;
+    transition: opacity 0.4s ease 0.4s;
+}
+
+/* Styling of the Menu List */
+.menu > div > div > ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.menu > div > div > ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu > div > div > ul li a:hover {
+    color: var(--primary-color);
+    transition: color 0.5s ease-in;
+}
+
+/* To make the menu overlay scale across on mobles */
+@media(max-width:768px) {
+    .menu > div {
+        width: 250vw;
+        height: 250vw;
+    }
+}
+
+
+
+
+
+
