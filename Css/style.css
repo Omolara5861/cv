@@ -44,6 +44,10 @@ h3 {
     text-align: center;
 }
 
+.resume-title {
+    font-size: 1.6rem;
+}
+
 #header h1 {
     font-size: 2.3rem;
 } 
@@ -158,10 +162,13 @@ footer img {
     width: 32px;
     height: 32px;
     /* Animation */
-    transform: translateY(-1620px);
+    transform: translateY(-2620px);
     animation: contact 1s forwards ease-in 10s;
     border-radius: 50%;
 }
+
+
+
 
 @keyframes contact {
     to { transform: translateY(0px); }
@@ -174,10 +181,6 @@ footer img {
     }
     #timeline ul li:nth-child(even) div {
     left: -284px;
-    }
-    
-    footer img {
-        transform: translateY(-2270px);
     }
 } 
 
@@ -197,9 +200,5 @@ footer img {
         left: -15px;
         border-width: 8px 16px 8px 0;
         border-color: transparent var(--primary-color) transparent transparent;
-    }
-
-    footer img {
-        transform: translateY(-2040px);
     }
 } 
