@@ -161,10 +161,11 @@ footer {
 footer img {
     width: 32px;
     height: 32px;
-    /* Animation */
+    border-radius: 50%;
+    /* Animation
     transform: translateY(-2620px);
     animation: contact 1s forwards ease-in 10s;
-    border-radius: 50%;
+    border-radius: 50%; */
 }
 
 
