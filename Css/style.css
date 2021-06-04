@@ -158,15 +158,37 @@ footer {
     text-align: center;
 }
 
-footer img {
-    width: 32px;
-    height: 32px;
+footer i{
+    background: var(--primary-color);
+    padding:10px;
     border-radius: 50%;
+    color: #fff;
+    border-radius: 100%;
     /* Animation
     transform: translateY(-2620px);
     animation: contact 1s forwards ease-in 10s;
     border-radius: 50%; */
 }
+
+/* .fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-facebook {
+    color: #4267B2;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+}
+
+.fa-github {
+    color:#211F1F;
+}
+
+.fa-envelope {
+    color: #211F1F;
+}  */
 
 
 
