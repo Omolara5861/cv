@@ -235,19 +235,38 @@ footer p {
 
 /* Styles for Printed Verion */
 @media print {
-    /* reduce space to help the content fit on one page */
-	html > body, body > #header, #timeline > ul, #timeline li.show {
+	/* reduce space to help the content fit on one page */
+	html > body, body > #header, #timeline > ul, #timeline li {
 		padding-top: 0;
 		padding-bottom: 0;
         margin: 0;
         color: #000;
 	}
-	#timeline li.show > div {
+	#timeline > ul > li > div {
 		padding-top: 5px;
 		padding-bottom: 5px;
+		/* Make text easier to read on a white background */
 	}
-	.show div::before, .show div::after{
+	#timeline > ul > li > div div::before, #timeline > ul > li > div div::after {
 		display: none; /* hide triangles */
+	}
+	#timeline > ul > li, #timeline > ul > li > div {
+		position: static;
+		transform: none;
+		margin-left: 0;
+	}
+	html > body #timeline > ul > li {
+		margin-top: 5px;
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 16px;
+		transform: none;
+		width: 100%;
+	}
+	#timeline > ul > li > div {
+		width: 100%;
+		visibility: visible;
+		opacity: 1;
     }
     h3 {
         color: #000;
