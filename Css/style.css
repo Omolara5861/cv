@@ -6,7 +6,6 @@
     --max-width: 1100px;
 }
 
-/* Css Reset */
 * {
     margin: 0; 
     padding: 0;
@@ -194,9 +193,13 @@ footer p {
     color: #211F1F;
 }  */
 
-.hide-content {
+.show-content-on-print {
     display: none;
     text-align: center;
+}
+
+.hide-content-on-print {
+    display: block;
 }
 
 
@@ -277,8 +280,11 @@ footer p {
     footer{
         display: none;
     }
-    .hide-content {
+    .show-content-on-print {
         display: block;
         font-weight: bold;
+    }
+    .hide-content-on-print {
+        display: none;
     }
 }
